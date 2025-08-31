@@ -8,35 +8,69 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 310 20% 98%;
+    --foreground: 230 15% 30%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 230 15% 30%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 230 15% 30%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 340 85% 75%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 280 40% 85%;
+    --secondary-foreground: 280 40% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 310 20% 95%;
+    --muted-foreground: 230 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 200 80% 85%;
+    --accent-foreground: 200 80% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 310 15% 90%;
+    --input: 310 15% 90%;
+    --ring: 340 85% 75%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Chat Analyzer Colors */
+    --pink-soft: 340 85% 95%;
+    --pink-medium: 340 85% 75%;
+    --pink-dark: 340 85% 55%;
+    
+    --purple-soft: 280 40% 95%;
+    --purple-medium: 280 40% 75%;
+    --purple-dark: 280 40% 55%;
+    
+    --blue-soft: 220 60% 95%;
+    --blue-medium: 220 60% 75%;
+    --blue-dark: 220 60% 55%;
+    
+    --green-soft: 140 50% 95%;
+    --green-medium: 140 50% 75%;
+    --green-dark: 140 50% 55%;
+    
+    --yellow-soft: 45 85% 95%;
+    --yellow-medium: 45 85% 75%;
+    --yellow-dark: 45 85% 55%;
+
+    /* Gradients */
+    --gradient-pink: linear-gradient(135deg, hsl(var(--pink-soft)), hsl(var(--pink-medium)));
+    --gradient-purple: linear-gradient(135deg, hsl(var(--purple-soft)), hsl(var(--purple-medium)));
+    --gradient-blue: linear-gradient(135deg, hsl(var(--blue-soft)), hsl(var(--blue-medium)));
+    --gradient-green: linear-gradient(135deg, hsl(var(--green-soft)), hsl(var(--green-medium)));
+    --gradient-yellow: linear-gradient(135deg, hsl(var(--yellow-soft)), hsl(var(--yellow-medium)));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    --shadow-medium: 0 8px 30px -4px hsl(var(--primary) / 0.15);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
