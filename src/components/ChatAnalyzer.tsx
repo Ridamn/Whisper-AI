@@ -78,11 +78,11 @@ export const ChatAnalyzer: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-soft via-purple-soft to-blue-soft p-4">
+    <div className="min-h-screen bg-gradient-to-br from-background via-purple-soft to-violet-soft p-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-6xl font-bold bg-gradient-to-r from-primary to-purple-dark bg-clip-text text-transparent mb-4">
-            Chat Recap
+          <h1 className="text-6xl font-bold bg-gradient-to-r from-primary to-lavender-medium bg-clip-text text-transparent mb-4">
+            Whisper AI
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Upload your WhatsApp chat export and get detailed insights about your conversation patterns, sentiment analysis, and relationship dynamics.
@@ -98,7 +98,7 @@ export const ChatAnalyzer: React.FC = () => {
               <Button 
                 onClick={() => setChatData(null)}
                 variant="outline"
-                className="bg-white/80 hover:bg-white/90"
+                className="bg-card/80 hover:bg-card/90 border-border"
               >
                 New Analysis
               </Button>

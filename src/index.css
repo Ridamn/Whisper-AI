@@ -8,69 +8,78 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 310 20% 98%;
-    --foreground: 230 15% 30%;
+    --background: 230 25% 8%;
+    --foreground: 270 20% 90%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 230 15% 30%;
+    --card: 230 20% 12%;
+    --card-foreground: 270 20% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 230 15% 30%;
+    --popover: 230 20% 12%;
+    --popover-foreground: 270 20% 85%;
 
-    --primary: 340 85% 75%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 270 75% 70%;
+    --primary-foreground: 230 25% 8%;
 
-    --secondary: 280 40% 85%;
-    --secondary-foreground: 280 40% 25%;
+    --secondary: 240 40% 20%;
+    --secondary-foreground: 270 20% 85%;
 
-    --muted: 310 20% 95%;
-    --muted-foreground: 230 15% 50%;
+    --muted: 230 20% 15%;
+    --muted-foreground: 270 15% 60%;
 
-    --accent: 200 80% 85%;
-    --accent-foreground: 200 80% 25%;
+    --accent: 280 60% 25%;
+    --accent-foreground: 270 20% 85%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 310 15% 90%;
-    --input: 310 15% 90%;
-    --ring: 340 85% 75%;
+    --border: 230 20% 18%;
+    --input: 230 20% 18%;
+    --ring: 270 75% 70%;
 
     --radius: 1rem;
 
-    /* Chat Analyzer Colors */
-    --pink-soft: 340 85% 95%;
-    --pink-medium: 340 85% 75%;
-    --pink-dark: 340 85% 55%;
+    /* Dark Theme Chat Analyzer Colors with Light Purple */
+    --purple-soft: 270 60% 20%;
+    --purple-medium: 270 75% 70%;
+    --purple-dark: 270 85% 85%;
     
-    --purple-soft: 280 40% 95%;
-    --purple-medium: 280 40% 75%;
-    --purple-dark: 280 40% 55%;
+    --lavender-soft: 280 50% 25%;
+    --lavender-medium: 280 65% 75%;
+    --lavender-dark: 280 70% 85%;
     
-    --blue-soft: 220 60% 95%;
-    --blue-medium: 220 60% 75%;
-    --blue-dark: 220 60% 55%;
+    --violet-soft: 260 55% 22%;
+    --violet-medium: 260 70% 72%;
+    --violet-dark: 260 75% 82%;
     
-    --green-soft: 140 50% 95%;
-    --green-medium: 140 50% 75%;
-    --green-dark: 140 50% 55%;
+    --blue-soft: 240 45% 20%;
+    --blue-medium: 240 60% 70%;
+    --blue-dark: 240 65% 80%;
     
-    --yellow-soft: 45 85% 95%;
-    --yellow-medium: 45 85% 75%;
-    --yellow-dark: 45 85% 55%;
+    --pink-soft: 300 50% 25%;
+    --pink-medium: 300 65% 75%;
+    --pink-dark: 300 70% 85%;
+    
+    --green-soft: 140 40% 22%;
+    --green-medium: 140 55% 70%;
+    --green-dark: 140 60% 80%;
+    
+    --yellow-soft: 45 50% 25%;
+    --yellow-medium: 45 65% 75%;
+    --yellow-dark: 45 70% 85%;
 
-    /* Gradients */
-    --gradient-pink: linear-gradient(135deg, hsl(var(--pink-soft)), hsl(var(--pink-medium)));
-    --gradient-purple: linear-gradient(135deg, hsl(var(--purple-soft)), hsl(var(--purple-medium)));
+    /* Dark Theme Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--purple-soft)), hsl(var(--purple-medium)));
+    --gradient-purple: linear-gradient(135deg, hsl(var(--lavender-soft)), hsl(var(--lavender-medium)));
+    --gradient-violet: linear-gradient(135deg, hsl(var(--violet-soft)), hsl(var(--violet-medium)));
     --gradient-blue: linear-gradient(135deg, hsl(var(--blue-soft)), hsl(var(--blue-medium)));
+    --gradient-pink: linear-gradient(135deg, hsl(var(--pink-soft)), hsl(var(--pink-medium)));
     --gradient-green: linear-gradient(135deg, hsl(var(--green-soft)), hsl(var(--green-medium)));
     --gradient-yellow: linear-gradient(135deg, hsl(var(--yellow-soft)), hsl(var(--yellow-medium)));
 
-    /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.1);
-    --shadow-medium: 0 8px 30px -4px hsl(var(--primary) / 0.15);
-
-    --radius: 1rem;
+    /* Dark Theme Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.3);
+    --shadow-medium: 0 8px 30px -4px hsl(var(--primary) / 0.4);
+    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.2);
 
     --sidebar-background: 0 0% 98%;
 

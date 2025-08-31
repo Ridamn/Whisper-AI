@@ -41,10 +41,10 @@ export const ChatUpload: React.FC<ChatUploadProps> = ({ onAnalyze, isLoading }) 
 
   return (
     <div className="max-w-4xl mx-auto">
-      <Card className="p-8 bg-white/80 backdrop-blur-sm shadow-lg border-0">
+      <Card className="p-8 bg-card/80 backdrop-blur-sm shadow-lg border-border">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-br from-primary to-purple-medium rounded-full flex items-center justify-center mx-auto mb-4">
-            <MessageCircle className="w-8 h-8 text-white" />
+          <div className="w-16 h-16 bg-gradient-to-br from-primary to-lavender-medium rounded-full flex items-center justify-center mx-auto mb-4">
+            <MessageCircle className="w-8 h-8 text-primary-foreground" />
           </div>
           <h3 className="text-2xl font-bold mb-2 text-foreground">Upload Your WhatsApp Chat</h3>
           <p className="text-muted-foreground">
@@ -61,7 +61,7 @@ export const ChatUpload: React.FC<ChatUploadProps> = ({ onAnalyze, isLoading }) 
               value={chatText}
               onChange={(e) => setChatText(e.target.value)}
               placeholder="Paste your WhatsApp chat export here..."
-              className="min-h-[200px] resize-none bg-white border-gray-200 focus:border-primary"
+              className="min-h-[200px] resize-none bg-input border-border focus:border-primary"
             />
           </div>
 
@@ -69,7 +69,7 @@ export const ChatUpload: React.FC<ChatUploadProps> = ({ onAnalyze, isLoading }) 
             <Button 
               onClick={handleSubmit}
               disabled={!chatText.trim() || isLoading}
-              className="flex-1 bg-gradient-to-r from-primary to-purple-medium hover:from-primary/90 hover:to-purple-medium/90 text-white border-0 h-12"
+              className="flex-1 bg-gradient-to-r from-primary to-lavender-medium hover:from-primary/90 hover:to-lavender-medium/90 text-primary-foreground border-0 h-12"
             >
               {isLoading ? (
                 <>
@@ -87,7 +87,7 @@ export const ChatUpload: React.FC<ChatUploadProps> = ({ onAnalyze, isLoading }) 
             <Button 
               onClick={handleDemoData}
               variant="outline"
-              className="bg-white/80 hover:bg-white/90 border-gray-200 h-12"
+              className="bg-card/80 hover:bg-card/90 border-border h-12"
             >
               Try Demo Data
             </Button>
